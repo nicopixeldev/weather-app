@@ -1,0 +1,62 @@
+.results
+    display: flex
+    flex-direction: column
+    margin-top: 10px
+    padding: 14px
+    background-color: #FFF
+    box-shadow: -3px 4px 3px -3px #ccc
+    &__current
+        &__header
+            margin-bottom: 10%
+            h2
+                margin: 0
+                margin-bottom: 6px
+                color: #000000
+                font-size: 22px
+            time
+                font-size: 90%
+        &__temperature
+            display: flex
+            justify-content: space-between
+            &__left
+                display: flex
+                & img
+                    width: 64px
+                    height: 64px
+                & h1
+                    font-size: 55px
+                    color: black
+                    margin: 0
+                    display: flex
+                    & span
+                        font-size: 15px
+                        margin-top: 7px
+                        margin-left: 4px
+            &__rigth
+                padding-top: 7px
+                & p
+                    margin: 0
+                    font-size: 90%
+                    margin-right: 12px
+
+    &__forecast
+        display: flex
+        margin-top: 52px
+        &__day
+            display: flex
+            flex-flow: wrap column
+            text-align: center
+            & time
+                & span
+                    font-size: 85%
+            &__maxmin
+                display: flex
+                justify-content: center
+                font-size: 84%
+                color: #000000ad
+                margin: 0
+            & img
+                width: 80%
+                margin-bottom: 12px
+                width: 80%
+                margin: 4px 5px

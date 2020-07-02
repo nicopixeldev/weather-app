@@ -1,0 +1,33 @@
+.search
+    background-color: #FFF
+    margin-bottom: 5px
+    display: flex
+    justify-content: space-between
+    box-shadow: -3px 4px 3px -3px #ccc
+    &__formField
+        width: 73%
+        position: relative
+        &__input
+            background-color: transparent
+            border: 0
+            font-size: 16px
+            padding: 10px 0px 10px 40px
+            color: #000000
+            width: 100%
+            &:focus
+                outline: none
+        &:after
+            position: absolute
+            transform: translate(0,-50%)
+            top: 50%
+            font-weight: 900
+            content: "\f0c9"
+            font-family: "Font Awesome 5 Free"
+            padding-left: 14px
+    &__button
+        width: 17%
+        background-color: #0a8ade
+        color: white
+        font-size: 12px
+        padding: 14px 0px 11px
+        text-transform: uppercase
