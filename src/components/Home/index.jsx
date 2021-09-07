@@ -33,11 +33,6 @@ class Home extends Component {
             this.setState({ query: params.query })
     }
 
-    componentDidUpdate = (prevProps, prevState) => {
-        if (prevState.query !== this.state.query)
-            this.handleSearch()
-    }
-
     render() {
         const { state: { query, results }, handleSubmit } = this
         return (

@@ -9,6 +9,9 @@ This App is built with the following technologies:
 - SASS
 - Javascript
 
+#### API - www.weatherbit.io
+I'm using the free version of forecast API by [weatherbit](https://www.weatherbit.io/). It has a limitation of 500 API calls per day.
+
 #### Test build with Jasmine
 
 ![Jasmine Tests](./doc/test-jasmine.png)
