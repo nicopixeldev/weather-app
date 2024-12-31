@@ -1,6 +1,6 @@
 # Weather App
 
-## [Live App](https://nicopixel-weather-app.netlify.app/)
+## [Live App](https://weather-app-nine-rho-49.vercel.app/)
 Every developer has a weather app in their repository—this one is mine!
 
 This is a simple weather application that fetches and displays current weather data for various cities around the world. The app focuses on clean design, functionality, and code simplicity.
